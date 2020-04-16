@@ -3,7 +3,7 @@ A Simple demo for integrating splash screen in flutter app.
 
 
 ## Create new file Splash.dart
-```
+```dart
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget{
@@ -28,7 +28,7 @@ class SplashState extends State<Splash>{
 ```
 
 ## Initialize Timer in Splash.dart file
-```
+```dart
 import 'dart:async';
 import 'package:flutter/material.dart';
 
@@ -69,7 +69,7 @@ class SplashState extends State<Splash>{
 ```
 
 ## Integrate Splash Screen in main.dart file
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:fluttersplashsample/splash.dart';
 
